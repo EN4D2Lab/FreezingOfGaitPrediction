@@ -17,7 +17,7 @@ Ensure you have the following installed on your system:
 Clone this repository and navigate to the project folder:
 
 ```sh
-git clone https://github.com/yourusername/FreezingOfGaitPrediction.git
+git clone https://github.com/EN4D2Lab/FreezingOfGaitPrediction.git
 cd FreezingOfGaitPrediction
 ```
 
