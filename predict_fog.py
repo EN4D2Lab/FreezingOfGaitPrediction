@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 29 12:56:27 2024
-
-@author: gauravrathi
-"""
 
 test_rows = [0, 1, 2, 16, 17, 18, 19]
 
