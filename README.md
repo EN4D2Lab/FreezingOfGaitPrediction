@@ -60,6 +60,4 @@ For each row in `area.xlsx`, the script will predict:
 If you encounter issues or want to contribute, feel free to open an issue or submit a pull request.
 
 ---
-**Author:** Gaurav Rathi  
-**GitHub:** [gaurav0720](https://github.com/gaurav0720)
 
