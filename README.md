@@ -43,7 +43,7 @@ python predict_fog.py
 ```
 
 ### Expected Output
-The script will load the patient data, preprocess it using `scalar_for_area.pkl`, and pass it to the trained `svm_model_for_area.pkl`. It will then output:
+The script will load the patient data, preprocess it using `scale_data.pkl`, and pass it to the trained `predict_output.pkl`. It will then output:
 
 For each row in `area.xlsx`, the script will predict:
 - **"Row X: The provided data shows that the patient has No Freezing of Gaits"** (if prediction is 1)
@@ -51,9 +51,9 @@ For each row in `area.xlsx`, the script will predict:
 
 ## Understanding the Code
 - **Data Loading:** Reads `area.xlsx` using `pandas`. If the file is empty, it prompts the user to add data.
-- **Scaling:** Uses `scalar_for_area.pkl` to normalize the data.
+- **Scaling:** Uses `scale_data.pkl` to normalize the data.
 - **Feature Selection:** Selects a predefined list of brain region features. These column names should not be changed as they are essential for prediction.
-- **Model Loading & Prediction:** Uses `svm_model_for_area.pkl` to predict FoG for each row in `area.xlsx`.
+- **Model Loading & Prediction:** Uses `predict_output.pkl` to predict FoG for each row in `area.xlsx`.
 - **Output:** Displays the prediction results row by row in the console.
 
 ## Issues & Contributions
