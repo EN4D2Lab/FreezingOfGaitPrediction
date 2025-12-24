@@ -9,8 +9,8 @@ Ensure you have the following installed on your system:
 - Python 3.x
 - Required Python packages (see Installation section below)
 - `area.xlsx` file containing the patient data
-- `scalar_for_area.pkl` for data normalization
-- `svm_model_for_area.pkl` pre-trained machine learning model
+- `scale_data.pkl` for data normalization
+- `predict_output.pkl` pre-trained machine learning model
 
 ## Installation
 
