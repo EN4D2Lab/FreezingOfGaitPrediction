@@ -1,7 +1,7 @@
 # Freezing of Gait Prediction
 
 ## Overview
-This repository contains a Python script (`predict_fog.py`) that predicts whether a patient has Freezing of Gait (FOG) using a pre-trained Support Vector Machine (SVM) model. The model utilizes brain area feature values stored in an Excel file (`area.xlsx`) and scales them using a saved scaler (`scalar_for_area.pkl`).
+This repository contains a Python script (`predict_fog.py`) that predicts whether a patient has Freezing of Gait (FOG) using a pre-trained Support Vector Machine (SVM) model. The model utilizes brain area feature values stored in an Excel file (`area.xlsx`) and scales them using a saved scaler (`scale_data.pkl`).
 
 ## Prerequisites
 Ensure you have the following installed on your system:
